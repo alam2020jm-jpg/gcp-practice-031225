@@ -26,6 +26,10 @@ where datediff(trx_date,previous_transactio-date)=1
 
 
 
+
+
+
+
 spark.sql("""
 SELECT a name AS employee_name,b.name AS Manager_name 
 FROM empl_table a left join empl_table b
