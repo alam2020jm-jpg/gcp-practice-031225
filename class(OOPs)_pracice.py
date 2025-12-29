@@ -21,8 +21,9 @@ class electronics(prodyct):
     def gets_details(self,waranty_year):
         print(f"Warrenty of electronics items are :-{warenty_year}")
 class cloth(product):
-    def __(self,price,size):
-        super.__(price)
+    def __init__(self,price,size):
+        super.__init__(price)
+        self.size=size
     def gets_detail(self,size):
         print(f"Size of the cloth is:- {size}")
 a1=electronices(400,5)
